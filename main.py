@@ -2,7 +2,7 @@
 def checarCPF(cpf):
     cpfpuro = ""
     i = 0
-    #utilizando while para
+    #utilizando while para remover não numerais do cpf digitado
     while i < len(cpf):
         if cpf[i] >= "0" and cpf[i] <= "9":
             cpfpuro += cpf[i]
@@ -282,12 +282,8 @@ elif countD > countA and countD > countB and countD > countC:
     perfil = "Técnico e Inovador"
     userinfo.append(perfil)
 
-print(f"""Sua Inscrição foi Enviada:
-        Nome: {nomeusuario}
-        CPF: {cpf}
-        Email: {email}
-        Perfil:{perfil}""")
 
+#Lista userinfo sendo gravada em um arquivo txt separado
 with open("forms.txt", "a", encoding="utf-8") as arquivo:
     arquivo.write("\n=== NOVA INSCRIÇÃO ===\n")
     arquivo.write(f"Nome: {userinfo[0]}\n")
@@ -295,3 +291,9 @@ with open("forms.txt", "a", encoding="utf-8") as arquivo:
     arquivo.write(f"Email: {userinfo[2]}\n")
     arquivo.write(f"Perfil: {userinfo[3]}\n")
 
+# Confirmação da Inscrição sendo enviada ao arquivo
+print(f"""Sua Inscrição foi Enviada:
+        Nome: {nomeusuario}
+        CPF: {cpf}
+        Email: {email}
+        Perfil:{perfil}""")
