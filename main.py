@@ -108,9 +108,9 @@ countD = 0
 perfil = ''
 
 #declarando a variavel nome do programa para eventuais mudanças
-nomePrograma = "Programa Teste"
+nomePrograma = "Nome da Empresa"
 
-print (f"""Bem Vindo ao {nomePrograma}""")
+print (f"""Bem Vindo ao  Formulário de Iniciação da {nomePrograma}""")
 
 #perguntando o nome do usuario e adcionando o nome digitado a lista
 nomeusuario = input("Digite seu nome: ")
