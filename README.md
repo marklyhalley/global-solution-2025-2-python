@@ -44,15 +44,58 @@ Informações gravadas em `forms.txt` automaticamente.
 
 ## 🛠️ Requisitos
 
--   Python 3.8+
--   Compatível com Windows, Linux e MacOS
+* Python **3.8 ou superior**
+* Git (opcional, caso deseje clonar o repositório)
+* Sistema operacional compatível: **Windows, Linux ou MacOS**
+* Acesso ao repositório:
+  **[https://github.com/marklyhalley/global-solution-2025-2-python](https://github.com/marklyhalley/global-solution-2025-2-python)**
+
+---
 
 ## ▶️ Como Executar
 
-1.  Salve o código como `main.py`
-2.  Execute:\
-    `python main.py`
-3.  Preencha os dados solicitados
+1. **Acesse o repositório no GitHub:**
+   [https://github.com/marklyhalley/global-solution-2025-2-python](https://github.com/marklyhalley/global-solution-2025-2-python)
+
+2. **Baixe o projeto** de uma das seguintes formas:
+
+   **Opção A – Clonar o repositório com Git:**
+
+   ```bash
+   git clone https://github.com/marklyhalley/global-solution-2025-2-python.git
+   ```
+
+   **Opção B – Baixar como ZIP:**
+
+   * Clique em **Code**
+   * Escolha **Download ZIP**
+   * Extraia o conteúdo no computador
+
+3. **Acesse a pasta do projeto no seu computador:**
+
+   ```bash
+   cd global-solution-2025-2-python
+   ```
+
+4. **Execute o arquivo principal do programa:**
+
+   ```bash
+   python main.py
+   ```
+
+   *(ou `python3 main.py` dependendo do sistema)*
+
+5. **Siga as instruções exibidas no terminal**, preenchendo:
+
+   * Nome
+   * CPF
+   * E-mail
+   * Respostas do quiz de perfil
+
+6. Após a conclusão, será criado ou atualizado o arquivo:
+   **forms.txt**
+   contendo o registro completo da inscrição.
+
 
 ## 📄 Licença
 
