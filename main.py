@@ -108,7 +108,7 @@ countD = 0
 perfil = ''
 
 #declarando a variavel nome do programa para eventuais mudanças
-nomePrograma = "Nome da Empresa"
+nomePrograma = "Henka"
 
 print (f"""Bem Vindo ao  Formulário de Iniciação da {nomePrograma}""")
 
