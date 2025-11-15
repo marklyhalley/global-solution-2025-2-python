@@ -243,7 +243,7 @@ while not validar(p5):
 #definindo lista das respostas
 respostas = [p1, p2, p3, p4, p5]
 
-#utilizando for para calcular as escolhas do quiz  (leve variação para que no caso de empate priviliegie as areas Humanas)
+#utilizando for para calcular as escolhas do quiz  (leve variação para que no caso de empate priviliegie as areas mais criativas)
 for i in respostas:
     escolha = quiz(i)
     if escolha == "A":
