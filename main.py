@@ -297,3 +297,5 @@ print(f"""Sua Inscrição foi Enviada:
         CPF: {cpf}
         Email: {email}
         Perfil:{perfil}""")
+#adicionando input para travar o código antes de sair
+input("Pressione Enter para sair...")
