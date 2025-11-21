@@ -101,6 +101,10 @@ Informações gravadas em `forms.txt` automaticamente.
 
 Projeto acadêmico para fins educacionais.
 
+## 📹 Video Explicativo
+
+https://www.youtube.com/watch?v=DfoPf3H3mZ0
+
 ## 👤 Autores e RM
 
 
